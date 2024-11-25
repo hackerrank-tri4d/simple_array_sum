@@ -7,11 +7,11 @@ class Program
     {
         List<int> nums = new List<int>() {1, 2, 3, 4, 10, 11}
         ;
-        Console.WriteLine(simpleArraySum);
+        Console.WriteLine(SimpleArraySum(nums));
     }
     
-    public static int simpleArraySum(List<int> ar)
+    public static int SimpleArraySum(List<int> arr)
     {   
-        return ar.Sum();
+        return arr.Sum();
     }
 }
