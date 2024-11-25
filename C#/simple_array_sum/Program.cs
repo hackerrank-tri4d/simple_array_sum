@@ -1,4 +1,5 @@
 ﻿namespace simple_array_sum;
+using System.Linq;
 
 class Program
 {
